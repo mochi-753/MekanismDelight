@@ -1,6 +1,7 @@
 package com.mochi_753.mekanism_delight;
 
-import com.mochi_753.mekanism_delight.addon.mekanismtools.MekanismToolsCompatibility;
+import com.mochi_753.mekanism_delight.addon.mekanismgenerators.MekanismGeneratorsDelight;
+import com.mochi_753.mekanism_delight.addon.mekanismtools.MekanismToolsDelight;
 import com.mochi_753.mekanism_delight.register.MekanismDelightCreativeTab;
 import com.mochi_753.mekanism_delight.register.MekanismDelightItems;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -23,6 +24,7 @@ public class MekanismDelight {
 
         MekanismDelightItems.register(eventBus);
         eventBus.addListener(MekanismDelightItems::onBuildCreativeModeTabContents);
-        new MekanismToolsCompatibility(eventBus);
+        new MekanismGeneratorsDelight(eventBus);
+        new MekanismToolsDelight(eventBus);
     }
 }
