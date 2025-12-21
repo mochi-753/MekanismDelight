@@ -28,7 +28,7 @@ public class AlloyShakeItem extends DrinkableItem {
     private final Tier tier;
 
     public AlloyShakeItem(Properties properties, Tier tier) {
-        super(properties, false, true);
+        super(properties);
         this.tier = tier;
     }
 
