@@ -82,6 +82,8 @@ dependencies {
     implementation fg.deobf("mekanism:Mekanism:${mekanism_version}:additions")
     implementation fg.deobf("mekanism:Mekanism:${mekanism_version}:generators")
     implementation fg.deobf("mekanism:Mekanism:${mekanism_version}:tools")
+
+    runtimeOnly fg.deobf("curse.maven:jei-238222:7270446") // JEI
 }
 
 tasks.named('processResources', ProcessResources).configure {
