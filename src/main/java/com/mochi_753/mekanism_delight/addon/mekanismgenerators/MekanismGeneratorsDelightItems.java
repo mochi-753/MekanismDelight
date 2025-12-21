@@ -20,7 +20,7 @@ public class MekanismGeneratorsDelightItems {
     private static final DeferredRegister<Item> ITEMS = DeferredRegister.create(Registries.ITEM, MekanismDelight.MOD_ID);
 
     public static final RegistryObject<Item> DT_DRINK = ITEMS.register("dt_drink",
-            () -> new DrinkableItem(new Item.Properties().craftRemainder(Items.GLASS_BOTTLE).stacksTo(16).food(DT_DRINK_FOOD_PROPERTY)));
+            () -> new DrinkableItem(new Item.Properties().craftRemainder(Items.GLASS_BOTTLE).stacksTo(16).food(DT_DRINK_FOOD_PROPERTY), true));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
