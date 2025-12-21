@@ -36,3 +36,24 @@ mandatory = true
 versionRange = "${mekanism_version_range}"
 ordering = "NONE"
 side = "BOTH"
+
+[[dependencies.${ mod_id }]]
+modId = "mekanismgenerators"
+mandatory = false
+versionRange = "${mekanism_version_range}"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.${ mod_id }]]
+modId = "mekanismadditions"
+mandatory = false
+versionRange = "${mekanism_version_range}"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.${ mod_id }]]
+modId = "mekanismtools"
+mandatory = false
+versionRange = "${mekanism_version_range}"
+ordering = "NONE"
+side = "BOTH"
