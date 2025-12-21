@@ -1,4 +1,16 @@
 {
+  "item.mekanismdelight.infused_shake": "Infused Shake",
+  "item.mekanismdelight.reinforced_shake": "Reinforced Shake",
+  "item.mekanismdelight.atomic_shake": "Atomic Shake",
+  "item.mekanismdelight.plutonium_burger": "Plutonium Burger",
+  "item.mekanismdelight.polonium_burger": "Polonium Burger",
+  "item.mekanismdelight.bronze_knife": "Bronze Knife",
+  "item.mekanismdelight.lapis_lazuli_knife": "Lapis Lazuli Knife",
+  "item.mekanismdelight.osmium_knife": "Osmium Knife",
+  "item.mekanismdelight.refined_glowstone_knife": "Refined Glowstone Knife",
+  "item.mekanismdelight.refined_obsidian_knife": "Refined Obsidian Knife",
+  "item.mekanismdelight.steel_knife": "Steel Knife",
+
   "tooltip.mekanismdelight.infused_shake": "Clears 1 Harmful Effect",
   "tooltip.mekanismdelight.reinforced_shake": "Clears 2 Harmful Effect",
   "tooltip.mekanismdelight.atomic_shake": "Clears 4 Harmful Effect",

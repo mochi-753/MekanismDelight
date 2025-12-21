@@ -1,4 +1,16 @@
 {
+  "item.mekanismdelight.infused_shake": "吹込シェイク",
+  "item.mekanismdelight.reinforced_shake": "強化シェイク",
+  "item.mekanismdelight.atomic_shake": "原子シェイク",
+  "item.mekanismdelight.plutonium_burger": "プルトニウムバーガー",
+  "item.mekanismdelight.polonium_burger": "ポロニウムバーガー",
+  "item.mekanismdelight.bronze_knife": "青銅のナイフ",
+  "item.mekanismdelight.lapis_lazuli_knife": "ラピスラズリのナイフ",
+  "item.mekanismdelight.osmium_knife": "オスミウムのナイフ",
+  "item.mekanismdelight.refined_glowstone_knife": "精製グロウストーンのナイフ",
+  "item.mekanismdelight.refined_obsidian_knife": "精製黒曜石のナイフ",
+  "item.mekanismdelight.steel_knife": "鋼鉄のナイフ",
+
   "tooltip.mekanismdelight.infused_shake": "1種類の負の効果を除去",
   "tooltip.mekanismdelight.reinforced_shake": "2種類の負の効果を除去",
   "tooltip.mekanismdelight.atomic_shake": "4種類の負の効果を除去",
