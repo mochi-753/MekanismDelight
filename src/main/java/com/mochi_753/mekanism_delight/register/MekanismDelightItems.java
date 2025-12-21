@@ -1,12 +1,12 @@
-package com.mochi_753.mekanism_delight.addon.mekanism;
+package com.mochi_753.mekanism_delight.register;
 
 import com.mochi_753.mekanism_delight.MekanismDelight;
 import com.mochi_753.mekanism_delight.item.AlloyShakeItem;
 import com.mochi_753.mekanism_delight.item.RadioactiveBurgerItem;
-import com.mochi_753.mekanism_delight.register.MekanismDelightCreativeTab;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Items;
+import net.minecraft.world.item.Rarity;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -17,11 +17,11 @@ public class MekanismDelightItems {
     private static final DeferredRegister<Item> ITEMS = DeferredRegister.create(Registries.ITEM, MekanismDelight.MOD_ID);
 
     private static final RegistryObject<Item> INFUSED_SHAKE = ITEMS.register("infused_shake",
-            () -> new AlloyShakeItem(new Item.Properties().craftRemainder(Items.GLASS_BOTTLE).stacksTo(16), AlloyShakeItem.Tier.INFUSED));
+            () -> new AlloyShakeItem(new Item.Properties().craftRemainder(Items.GLASS_BOTTLE).stacksTo(16).rarity(Rarity.UNCOMMON), AlloyShakeItem.Tier.INFUSED));
     private static final RegistryObject<Item> REINFORCED_SHAKE = ITEMS.register("reinforced_shake",
-            () -> new AlloyShakeItem(new Item.Properties().craftRemainder(Items.GLASS_BOTTLE).stacksTo(16), AlloyShakeItem.Tier.REINFORCED));
+            () -> new AlloyShakeItem(new Item.Properties().craftRemainder(Items.GLASS_BOTTLE).stacksTo(16).rarity(Rarity.RARE), AlloyShakeItem.Tier.REINFORCED));
     private static final RegistryObject<Item> ATOMIC_SHAKE = ITEMS.register("atomic_shake",
-            () -> new AlloyShakeItem(new Item.Properties().craftRemainder(Items.GLASS_BOTTLE).stacksTo(16), AlloyShakeItem.Tier.ATOMIC));
+            () -> new AlloyShakeItem(new Item.Properties().craftRemainder(Items.GLASS_BOTTLE).stacksTo(16).rarity(Rarity.EPIC), AlloyShakeItem.Tier.ATOMIC));
     private static final RegistryObject<Item> PLUTONIUM_BURGER = ITEMS.register("plutonium_burger",
             () -> new RadioactiveBurgerItem(new Item.Properties().food(FoodValues.HAMBURGER)));
     private static final RegistryObject<Item> POLONIUM_BURGER = ITEMS.register("polonium_burger",
