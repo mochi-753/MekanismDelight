@@ -65,9 +65,9 @@ public class AlloyShakeItem extends DrinkableItem {
     public void appendHoverText(ItemStack stack, @Nullable Level level, List<Component> tooltip, TooltipFlag isAdvanced) {
         if (Configuration.FOOD_EFFECT_TOOLTIP.get()) {
             MutableComponent component = switch (this.tier) {
-                case INFUSED -> Component.translatable("tooltip.mekanismdelight.infused_shake");
-                case REINFORCED -> Component.translatable("tooltip.mekanismdelight.reinforced_shake");
-                case ATOMIC -> Component.translatable("tooltip.mekanismdelight.atomic_shake");
+                case INFUSED -> Component.translatable("mekanismdelight.tooltip.infused_shake");
+                case REINFORCED -> Component.translatable("mekanismdelight.tooltip.reinforced_shake");
+                case ATOMIC -> Component.translatable("mekanismdelight.tooltip.atomic_shake");
             };
             tooltip.add(component.withStyle(ChatFormatting.BLUE));
         }

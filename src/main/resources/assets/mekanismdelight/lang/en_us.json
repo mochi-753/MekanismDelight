@@ -1,5 +1,7 @@
 {
-  "tooltip.mekanismdelight.infused_shake": "Clears 1 Harmful Effect",
-  "tooltip.mekanismdelight.reinforced_shake": "Clears 2 Harmful Effect",
-  "tooltip.mekanismdelight.atomic_shake": "Clears 4 Harmful Effect"
+  "mekanismdelight.tooltip.infused_shake": "Clears 1 Harmful Effect",
+  "mekanismdelight.tooltip.reinforced_shake": "Clears 2 Harmful Effect",
+  "mekanismdelight.tooltip.atomic_shake": "Clears 4 Harmful Effect",
+  "mekanismdelight.tooltip.plutonium_burger": "Warning: Contains high levels of radiation",
+  "mekanismdelight.tooltip.polonium_burger": "Warning: Contains high levels of radiation"
 }

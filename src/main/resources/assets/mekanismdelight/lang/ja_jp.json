@@ -1,5 +1,7 @@
 {
-  "tooltip.mekanismdelight.infused_shake": "1種類の負の効果を除去",
-  "tooltip.mekanismdelight.reinforced_shake": "2種類の負の効果を除去",
-  "tooltip.mekanismdelight.atomic_shake": "4種類の負の効果を除去"
+  "mekanismdelight.tooltip.infused_shake": "1種類の負の効果を除去",
+  "mekanismdelight.tooltip.reinforced_shake": "2種類の負の効果を除去",
+  "mekanismdelight.tooltip.atomic_shake": "4種類の負の効果を除去",
+  "mekanismdelight.tooltip.plutonium_burger": "警告：高レベルの放射線を持つ",
+  "mekanismdelight.tooltip.polonium_burger": "警告：高レベルの放射線を持つ"
 }
