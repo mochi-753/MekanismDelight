@@ -2,6 +2,7 @@ package com.mochi_753.mekanism_delight.addon.mekanism;
 
 import com.mochi_753.mekanism_delight.MekanismDelight;
 import com.mochi_753.mekanism_delight.item.AlloyShakeItem;
+import com.mochi_753.mekanism_delight.item.RadioactiveBurgerItem;
 import com.mochi_753.mekanism_delight.register.MekanismDelightCreativeTab;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.world.item.Item;
@@ -10,6 +11,7 @@ import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
+import vectorwing.farmersdelight.common.FoodValues;
 
 public class MekanismDelightItems {
     private static final DeferredRegister<Item> ITEMS = DeferredRegister.create(Registries.ITEM, MekanismDelight.MOD_ID);
@@ -20,6 +22,10 @@ public class MekanismDelightItems {
             () -> new AlloyShakeItem(new Item.Properties().craftRemainder(Items.GLASS_BOTTLE).stacksTo(16), AlloyShakeItem.Tier.REINFORCED));
     private static final RegistryObject<Item> ATOMIC_SHAKE = ITEMS.register("atomic_shake",
             () -> new AlloyShakeItem(new Item.Properties().craftRemainder(Items.GLASS_BOTTLE).stacksTo(16), AlloyShakeItem.Tier.ATOMIC));
+    private static final RegistryObject<Item> PLUTONIUM_BURGER = ITEMS.register("plutonium_burger",
+            () -> new RadioactiveBurgerItem(new Item.Properties().food(FoodValues.HAMBURGER)));
+    private static final RegistryObject<Item> POLONIUM_BURGER = ITEMS.register("polonium_burger",
+            () -> new RadioactiveBurgerItem(new Item.Properties().food(FoodValues.HAMBURGER)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
