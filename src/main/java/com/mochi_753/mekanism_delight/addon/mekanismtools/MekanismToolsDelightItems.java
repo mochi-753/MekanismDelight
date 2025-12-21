@@ -1,0 +1,32 @@
+package com.mochi_753.mekanism_delight.addon.mekanismtools;
+
+import com.mochi_753.mekanism_delight.MekanismDelight;
+import mekanism.tools.common.config.MekanismToolsConfig;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.Tiers;
+import net.minecraftforge.eventbus.api.IEventBus;
+import net.minecraftforge.registries.DeferredRegister;
+import net.minecraftforge.registries.ForgeRegistries;
+import net.minecraftforge.registries.RegistryObject;
+import vectorwing.farmersdelight.common.item.KnifeItem;
+
+public class MekanismToolsDelightItems {
+    private static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, MekanismDelight.MOD_ID);
+
+    public static final RegistryObject<Item> BRONZE_KNIFE = ITEMS.register("bronze_knife",
+            () -> new KnifeItem(Tiers.IRON, 0.5F, -2.0F, new Item.Properties().durability(MekanismToolsConfig.tools.bronze.getUses())));
+    public static final RegistryObject<Item> LAPIS_LAZULI_KNIFE = ITEMS.register("lapis_lazuli_knife",
+            () -> new KnifeItem(Tiers.IRON, 0.5F, -2.0F, new Item.Properties().durability(MekanismToolsConfig.tools.lapisLazuli.getUses())));
+    public static final RegistryObject<Item> OSMIUM_KNIFE = ITEMS.register("osmium_knife",
+            () -> new KnifeItem(Tiers.IRON, 0.5F, -2.0F, new Item.Properties().durability(MekanismToolsConfig.tools.osmium.getUses())));
+    public static final RegistryObject<Item> REFINED_GLOWSTONE_KNIFE = ITEMS.register("refined_glowstone_knife",
+            () -> new KnifeItem(Tiers.IRON, 0.5F, -2.0F, new Item.Properties().durability(MekanismToolsConfig.tools.refinedGlowstone.getUses())));
+    public static final RegistryObject<Item> REFINED_OBSIDIAN_KNIFE = ITEMS.register("refined_obsidian_knife",
+            () -> new KnifeItem(Tiers.IRON, 0.5F, -2.0F, new Item.Properties().durability(MekanismToolsConfig.tools.refinedObsidian.getUses())));
+    public static final RegistryObject<Item> STEEL_KNIFE = ITEMS.register("steel_knife",
+            () -> new KnifeItem(Tiers.IRON, 0.5F, -2.0F, new Item.Properties().durability(MekanismToolsConfig.tools.steel.getUses())));
+
+    public static void register(IEventBus eventBus) {
+        ITEMS.register(eventBus);
+    }
+}
