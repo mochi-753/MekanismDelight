@@ -7,6 +7,7 @@ public class MekanismToolsCompatibility {
     public MekanismToolsCompatibility(IEventBus eventBus) {
         if (FMLLoader.getLoadingModList().getModFileById("mekanismtools") != null) {
             MekanismToolsDelightItems.register(eventBus);
+            eventBus.addListener(MekanismToolsDelightItems::onBuildCreativeModeTabContents);
         }
     }
 }

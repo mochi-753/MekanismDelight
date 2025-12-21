@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/handheld",
   "textures": {
-    "layer0": "mekanism_delight:item/refined_glowstone_knife"
+    "layer0": "mekanismdelight:item/refined_glowstone_knife"
   }
 }
