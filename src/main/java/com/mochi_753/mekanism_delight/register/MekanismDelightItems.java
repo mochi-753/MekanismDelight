@@ -2,7 +2,7 @@ package com.mochi_753.mekanism_delight.register;
 
 import com.mochi_753.mekanism_delight.MekanismDelight;
 import com.mochi_753.mekanism_delight.item.AlloyShakeItem;
-import com.mochi_753.mekanism_delight.item.RadioactiveBurgerItem;
+import com.mochi_753.mekanism_delight.item.RadioactiveFoodItem;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.Item;
@@ -24,9 +24,9 @@ public class MekanismDelightItems {
     public static final RegistryObject<Item> ATOMIC_SHAKE = ITEMS.register("atomic_shake",
             () -> new AlloyShakeItem(new Item.Properties().craftRemainder(Items.GLASS_BOTTLE).stacksTo(16).rarity(Rarity.EPIC), AlloyShakeItem.Tier.ATOMIC));
     public static final RegistryObject<Item> PLUTONIUM_BURGER = ITEMS.register("plutonium_burger",
-            () -> new RadioactiveBurgerItem(new Item.Properties().food(RADIATION_BURGER_FOOD_PROPERTY)));
+            () -> new RadioactiveFoodItem(new Item.Properties().food(RADIATION_BURGER_FOOD_PROPERTY), 50.0));
     public static final RegistryObject<Item> POLONIUM_BURGER = ITEMS.register("polonium_burger",
-            () -> new RadioactiveBurgerItem(new Item.Properties().food(RADIATION_BURGER_FOOD_PROPERTY)));
+            () -> new RadioactiveFoodItem(new Item.Properties().food(RADIATION_BURGER_FOOD_PROPERTY), 50.0));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

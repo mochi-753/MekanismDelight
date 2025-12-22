@@ -15,14 +15,17 @@ import javax.annotation.ParametersAreNonnullByDefault;
 import java.util.List;
 
 @ParametersAreNonnullByDefault
-public class RadioactiveBurgerItem extends ConsumableItem {
-    public RadioactiveBurgerItem(Properties properties) {
+public class RadioactiveFoodItem extends ConsumableItem {
+    private final double radiationDose;
+
+    public RadioactiveFoodItem(Properties properties, double radiationDose) {
         super(properties);
+        this.radiationDose = radiationDose;
     }
 
     @Override
     public void affectConsumer(ItemStack stack, Level level, LivingEntity consumer) {
-        consumer.getCapability(Capabilities.RADIATION_ENTITY).ifPresent(c -> c.radiate(50.0));
+        consumer.getCapability(Capabilities.RADIATION_ENTITY).ifPresent(c -> c.radiate(this.radiationDose));
     }
 
     @Override
