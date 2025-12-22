@@ -85,6 +85,7 @@ dependencies {
 
     runtimeOnly fg.deobf("curse.maven:jei-238222:7270446") // JEI
     runtimeOnly fg.deobf("curse.maven:jade-324717:6855440") // Jade
+    runtimeOnly fg.deobf("curse.maven:appleskin-248787:4770828") // AppleSkin
 }
 
 tasks.named('processResources', ProcessResources).configure {
