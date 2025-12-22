@@ -13,6 +13,7 @@ import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.level.Level;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.entity.living.MobEffectEvent;
+import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 import vectorwing.farmersdelight.common.Configuration;
 import vectorwing.farmersdelight.common.item.DrinkableItem;
@@ -71,6 +72,16 @@ public class AlloyShakeItem extends DrinkableItem {
             };
             tooltip.add(component.withStyle(ChatFormatting.BLUE));
         }
+    }
+
+    @Override
+    public @NotNull Component getName(ItemStack pStack) {
+        MutableComponent component = (MutableComponent) super.getName(pStack);
+        return component.withStyle(switch (this.tier) {
+            case INFUSED -> ChatFormatting.YELLOW;
+            case REINFORCED -> ChatFormatting.AQUA;
+            case ATOMIC -> ChatFormatting.LIGHT_PURPLE;
+        });
     }
 
     public enum Tier {
