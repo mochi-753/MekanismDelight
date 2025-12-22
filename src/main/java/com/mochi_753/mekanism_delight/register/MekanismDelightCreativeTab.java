@@ -15,7 +15,7 @@ public class MekanismDelightCreativeTab {
     public static final RegistryObject<CreativeModeTab> TAB_MEKANISM_DELIGHT = CREATIVE_MODE_TABS.register(MekanismDelight.MOD_ID,
             () -> CreativeModeTab.builder()
                     .title(Component.literal("Mekanism Delight"))
-                    .icon(() -> new ItemStack(MekanismDelightItems.INFUSED_SHAKE.get()))
+                    .icon(() -> new ItemStack(MekanismDelightItems.POLONIUM_HAMBURGER.get()))
                     .build());
 
     public static void register(IEventBus eventBus) {
