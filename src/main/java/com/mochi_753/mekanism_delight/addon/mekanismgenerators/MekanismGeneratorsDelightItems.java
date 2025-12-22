@@ -14,6 +14,7 @@ import net.minecraftforge.registries.RegistryObject;
 import vectorwing.farmersdelight.common.item.DrinkableItem;
 import vectorwing.farmersdelight.common.registry.ModEffects;
 
+@SuppressWarnings("unused")
 public class MekanismGeneratorsDelightItems {
     private static final FoodProperties DT_DRINK_FOOD_PROPERTY = new FoodProperties.Builder().alwaysEat()
             .effect(() -> new MobEffectInstance(ModEffects.NOURISHMENT.get(), 6000, 0), 1.0F).build();
@@ -28,9 +29,7 @@ public class MekanismGeneratorsDelightItems {
 
     public static void onBuildCreativeModeTabContents(BuildCreativeModeTabContentsEvent event) {
         if (event.getTab().equals(MekanismDelightCreativeTab.TAB_MEKANISM_DELIGHT.get())) {
-            ITEMS.getEntries().forEach(registryObject -> {
-                event.accept(registryObject.get());
-            });
+            ITEMS.getEntries().forEach(registryObject -> event.accept(registryObject.get()));
         }
     }
 }

@@ -14,6 +14,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
 import vectorwing.farmersdelight.common.item.KnifeItem;
 
+@SuppressWarnings("unused")
 public class MekanismToolsDelightItems {
     private static final DeferredRegister<Item> ITEMS = DeferredRegister.create(Registries.ITEM, MekanismDelight.MOD_ID);
 

@@ -12,6 +12,7 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
 
+@SuppressWarnings("unused")
 public class MekanismDelightItems {
     private static final FoodProperties RADIATION_BURGER_FOOD_PROPERTY = new FoodProperties.Builder().nutrition(11).saturationMod(0.8F).alwaysEat().build();
     private static final DeferredRegister<Item> ITEMS = DeferredRegister.create(Registries.ITEM, MekanismDelight.MOD_ID);
@@ -33,9 +34,7 @@ public class MekanismDelightItems {
 
     public static void onBuildCreativeModeTabContents(BuildCreativeModeTabContentsEvent event) {
         if (event.getTab().equals(MekanismDelightCreativeTab.TAB_MEKANISM_DELIGHT.get())) {
-            ITEMS.getEntries().forEach(registryObject -> {
-                event.accept(registryObject.get());
-            });
+            ITEMS.getEntries().forEach(registryObject -> event.accept(registryObject.get()));
         }
     }
 }

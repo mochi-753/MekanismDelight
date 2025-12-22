@@ -12,7 +12,7 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 public class MekanismDelight {
     public static final String MOD_ID = "mekanismdelight";
 
-    @SuppressWarnings("removal")
+    @SuppressWarnings({"removal", "unused"})
     public MekanismDelight() {
         this(FMLJavaModLoadingContext.get());
     }
