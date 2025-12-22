@@ -2,8 +2,8 @@
   "item.mekanismdelight.infused_shake": "吹込シェイク",
   "item.mekanismdelight.reinforced_shake": "強化シェイク",
   "item.mekanismdelight.atomic_shake": "原子シェイク",
-  "item.mekanismdelight.plutonium_burger": "プルトニウムバーガー",
-  "item.mekanismdelight.polonium_burger": "ポロニウムバーガー",
+  "item.mekanismdelight.plutonium_hamburger": "プルトニウムバーガー",
+  "item.mekanismdelight.polonium_hamburger": "ポロニウムバーガー",
   "item.mekanismdelight.dt_drink": "D-T 飲料",
   "item.mekanismdelight.bronze_knife": "青銅のナイフ",
   "item.mekanismdelight.lapis_lazuli_knife": "ラピスラズリのナイフ",
@@ -15,5 +15,5 @@
   "tooltip.mekanismdelight.infused_shake": "1種類の負の効果を除去",
   "tooltip.mekanismdelight.reinforced_shake": "2種類の負の効果を除去",
   "tooltip.mekanismdelight.atomic_shake": "4種類の負の効果を除去",
-  "tooltip.mekanismdelight.radioactive_burger": "警告：高レベルの放射線を持つ"
+  "tooltip.mekanismdelight.radioactive_food": "警告：高レベルの放射線を持つ"
 }

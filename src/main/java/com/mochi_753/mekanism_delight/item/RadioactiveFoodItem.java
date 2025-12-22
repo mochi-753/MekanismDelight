@@ -30,7 +30,7 @@ public class RadioactiveFoodItem extends ConsumableItem {
 
     @Override
     public void appendHoverText(ItemStack stack, @Nullable Level level, List<Component> tooltip, TooltipFlag isAdvanced) {
-        MutableComponent component = Component.translatable("tooltip.mekanismdelight.radioactive_burger");
+        MutableComponent component = Component.translatable("tooltip.mekanismdelight.radioactive_food");
         tooltip.add(component.withStyle(ChatFormatting.RED));
     }
 }
