@@ -1,0 +1,14 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 100,
+  "experience": 1.0,
+  "ingredients": [
+    {
+      "item": "mekanismgenerators:fusion_fuel_bucket"
+    }
+  ],
+  "recipe_book_tab": "drinks",
+  "result": {
+    "item": "mekanismdelight:dt_drink"
+  }
+}
