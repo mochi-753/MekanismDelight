@@ -1,4 +1,4 @@
-package com.mochi_753.mekanism_delight.addon.mekanismgenerators;
+package com.mochi_753.mekanismdelight.addon.mekanismgenerators;
 
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.loading.FMLLoader;

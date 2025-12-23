@@ -1,9 +1,9 @@
-package com.mochi_753.mekanism_delight;
+package com.mochi_753.mekanismdelight;
 
-import com.mochi_753.mekanism_delight.addon.mekanismgenerators.MekanismGeneratorsDelight;
-import com.mochi_753.mekanism_delight.addon.mekanismtools.MekanismToolsDelight;
-import com.mochi_753.mekanism_delight.register.MekanismDelightCreativeTab;
-import com.mochi_753.mekanism_delight.register.MekanismDelightItems;
+import com.mochi_753.mekanismdelight.addon.mekanismgenerators.MekanismGeneratorsDelight;
+import com.mochi_753.mekanismdelight.addon.mekanismtools.MekanismToolsDelight;
+import com.mochi_753.mekanismdelight.register.MekanismDelightCreativeTab;
+import com.mochi_753.mekanismdelight.register.MekanismDelightItems;
 import com.mojang.logging.LogUtils;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;

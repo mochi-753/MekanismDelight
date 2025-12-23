@@ -1,6 +1,6 @@
-package com.mochi_753.mekanism_delight.register;
+package com.mochi_753.mekanismdelight.register;
 
-import com.mochi_753.mekanism_delight.MekanismDelight;
+import com.mochi_753.mekanismdelight.MekanismDelight;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;

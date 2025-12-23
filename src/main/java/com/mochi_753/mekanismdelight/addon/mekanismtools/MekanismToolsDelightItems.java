@@ -1,7 +1,7 @@
-package com.mochi_753.mekanism_delight.addon.mekanismtools;
+package com.mochi_753.mekanismdelight.addon.mekanismtools;
 
-import com.mochi_753.mekanism_delight.MekanismDelight;
-import com.mochi_753.mekanism_delight.register.MekanismDelightCreativeTab;
+import com.mochi_753.mekanismdelight.MekanismDelight;
+import com.mochi_753.mekanismdelight.register.MekanismDelightCreativeTab;
 import mekanism.tools.common.config.MekanismToolsConfig;
 import mekanism.tools.common.material.MaterialCreator;
 import net.minecraft.core.registries.Registries;

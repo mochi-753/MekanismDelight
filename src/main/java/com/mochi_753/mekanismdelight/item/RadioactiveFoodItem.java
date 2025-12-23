@@ -1,4 +1,4 @@
-package com.mochi_753.mekanism_delight.item;
+package com.mochi_753.mekanismdelight.item;
 
 import mekanism.common.capabilities.Capabilities;
 import net.minecraft.ChatFormatting;
