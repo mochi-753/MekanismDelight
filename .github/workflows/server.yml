@@ -10,7 +10,7 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  serverTest:
+  ServerTest:
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -57,13 +57,13 @@ jobs:
             if [ $ELAPSED -ge $MAX_WAIT ]; then
               echo "Server did not finish startup in time"
               kill $SERVER_PID
-              echo "====== Server Log ======"
+              echo "============ Server Log ============"
               cat server.log
               exit 1
             fi
           done
           
           echo "Server process exited early"
-          echo "====== Server Log ======"
+          echo "============ Server Log ============"
           cat server.log
           exit 1
