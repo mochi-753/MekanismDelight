@@ -5,7 +5,6 @@ import com.mochi_753.mekanism_delight.addon.mekanismtools.MekanismToolsDelight;
 import com.mochi_753.mekanism_delight.register.MekanismDelightCreativeTab;
 import com.mochi_753.mekanism_delight.register.MekanismDelightItems;
 import com.mojang.logging.LogUtils;
-import net.minecraft.client.Minecraft;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
@@ -30,6 +29,5 @@ public class MekanismDelight {
         eventBus.addListener(MekanismDelightItems::onBuildCreativeModeTabContents);
         new MekanismGeneratorsDelight(eventBus);
         new MekanismToolsDelight(eventBus);
-        LOGGER.error(Minecraft.getInstance().toString());
     }
 }
