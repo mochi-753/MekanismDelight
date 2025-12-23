@@ -1,0 +1,27 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "mekanism:robit"
+    }
+  ],
+  "result": [
+    {
+      "item": "mekanism:alloy_atomic"
+    },
+    {
+      "count": 2,
+      "item": "mekanism:energy_tablet"
+    },
+    {
+      "count": 2,
+      "item": "mekanism:ingot_refined_obsidian"
+    },
+    {
+      "item": "mekanism:personal_chest"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}
