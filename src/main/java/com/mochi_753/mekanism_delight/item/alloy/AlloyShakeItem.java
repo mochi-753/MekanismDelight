@@ -1,4 +1,4 @@
-package com.mochi_753.mekanism_delight.item;
+package com.mochi_753.mekanism_delight.item.alloy;
 
 import net.minecraft.ChatFormatting;
 import net.minecraft.network.chat.Component;
@@ -26,9 +26,9 @@ import java.util.List;
 
 @ParametersAreNonnullByDefault
 public class AlloyShakeItem extends DrinkableItem {
-    private final Tier tier;
+    private final AlloyFoodTier tier;
 
-    public AlloyShakeItem(Properties properties, Tier tier) {
+    public AlloyShakeItem(Properties properties, AlloyFoodTier tier) {
         super(properties);
         this.tier = tier;
     }
@@ -82,11 +82,5 @@ public class AlloyShakeItem extends DrinkableItem {
             case REINFORCED -> ChatFormatting.AQUA;
             case ATOMIC -> ChatFormatting.LIGHT_PURPLE;
         });
-    }
-
-    public enum Tier {
-        INFUSED,
-        REINFORCED,
-        ATOMIC,
     }
 }
