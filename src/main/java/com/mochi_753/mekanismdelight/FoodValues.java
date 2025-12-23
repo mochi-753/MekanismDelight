@@ -13,6 +13,8 @@ public class FoodValues {
             new FoodProperties.Builder().alwaysEat().effect(() -> new MobEffectInstance(ModEffects.NOURISHMENT.get(), 6000, 0), 1.0F).build();
     public static final FoodProperties RADIATION_HAMBURGER_FOOD_PROPERTY =
             new FoodProperties.Builder().nutrition(8).saturationMod(0.75F).alwaysEat().build();
+    public static final FoodProperties ROBIT_STEW_FOOD_PROPERTY =
+            new FoodProperties.Builder().nutrition(16).saturationMod(0.75F).build();
     public static final FoodProperties SALTED_RICE_BALL_FOOD_PROPERTY =
             new FoodProperties.Builder().nutrition(4).saturationMod(0.5F).effect(() -> new MobEffectInstance(ModEffects.COMFORT.get(), 600, 0), 1.0F).build();
     public static final FoodProperties SAWDUST_HAMBURGER_FOOD_PROPERTY =

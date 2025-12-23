@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "mekanism:item/dust",
+    "layer1": "mekanismdelight:item/formerly_robit"
+  }
+}

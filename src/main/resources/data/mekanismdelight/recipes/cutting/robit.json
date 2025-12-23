@@ -7,18 +7,8 @@
   ],
   "result": [
     {
-      "item": "mekanism:alloy_atomic"
-    },
-    {
       "count": 2,
-      "item": "mekanism:energy_tablet"
-    },
-    {
-      "count": 2,
-      "item": "mekanism:ingot_refined_obsidian"
-    },
-    {
-      "item": "mekanism:personal_chest"
+      "item": "mekanismdelight:formerly_robit"
     }
   ],
   "tool": {
