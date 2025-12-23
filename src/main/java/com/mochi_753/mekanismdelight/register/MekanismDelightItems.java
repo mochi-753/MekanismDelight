@@ -25,7 +25,7 @@ public class MekanismDelightItems {
 
     // Foods
     public static final RegistryObject<Item> ROBIT_STEW = ITEMS.register("robit_stew",
-            () -> new RobitStewItem(new Item.Properties().craftRemainder(Items.BOWL).stacksTo(16).food(FoodValues.ROBIT_STEW_FOOD_PROPERTY)));
+            () -> new RobitStewItem(new Item.Properties().craftRemainder(Items.BOWL).food(FoodValues.ROBIT_STEW_FOOD_PROPERTY)));
     public static final RegistryObject<Item> INFUSED_SHAKE = ITEMS.register("infused_shake",
             () -> new AlloyShakeItem(new Item.Properties().craftRemainder(Items.GLASS_BOTTLE).stacksTo(16).food(FoodValues.ALLOY_SHAKE_FOOD_PROPERTY), AlloyFoodTier.INFUSED));
     public static final RegistryObject<Item> REINFORCED_SHAKE = ITEMS.register("reinforced_shake",
