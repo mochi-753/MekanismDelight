@@ -32,9 +32,11 @@ public class MekanismDelightItems {
     public static final RegistryObject<Item> ATOMIC_JELLY = ITEMS.register("atomic_jelly",
             () -> new AlloyJellyItem(new Item.Properties().craftRemainder(Items.GLASS_BOTTLE).stacksTo(16).food(FoodValues.ALLOY_JELLY_FOOD_PROPERTY), AlloyFoodTier.ATOMIC));
     public static final RegistryObject<Item> PLUTONIUM_HAMBURGER = ITEMS.register("plutonium_hamburger",
-            () -> new RadioactiveFoodItem(new Item.Properties().food(FoodValues.RADIATION_BURGER_FOOD_PROPERTY), 50.0));
+            () -> new RadioactiveFoodItem(new Item.Properties().food(FoodValues.RADIATION_HAMBURGER_FOOD_PROPERTY), 50.0));
     public static final RegistryObject<Item> POLONIUM_HAMBURGER = ITEMS.register("polonium_hamburger",
-            () -> new RadioactiveFoodItem(new Item.Properties().food(FoodValues.RADIATION_BURGER_FOOD_PROPERTY), 50.0));
+            () -> new RadioactiveFoodItem(new Item.Properties().food(FoodValues.RADIATION_HAMBURGER_FOOD_PROPERTY), 50.0));
+    public static final RegistryObject<Item> SAWDUST_HAMBURGER = ITEMS.register("sawdust_hamburger",
+            () -> new ConsumableItem(new Item.Properties().food(FoodValues.SAWDUST_HAMBURGER_FOOD_PROPERTY)));
     public static final RegistryObject<Item> SALTED_RICE_BALL = ITEMS.register("salted_rice_ball",
             () -> new ConsumableItem(new Item.Properties().food(FoodValues.SALTED_RICE_BALL_FOOD_PROPERTY), true));
 
