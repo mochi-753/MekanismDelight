@@ -5,6 +5,8 @@ import net.minecraft.world.food.FoodProperties;
 import vectorwing.farmersdelight.common.registry.ModEffects;
 
 public class FoodValues {
+    public static final FoodProperties ALLOY_SHAKE_FOOD_PROPERTY =
+            new FoodProperties.Builder().nutrition(6).saturationMod(0.75F).fast().build();
     public static final FoodProperties ALLOY_JELLY_FOOD_PROPERTY =
             new FoodProperties.Builder().nutrition(2).saturationMod(1.0F).fast().build();
     public static final FoodProperties DT_DRINK_FOOD_PROPERTY =

@@ -20,11 +20,11 @@ public class MekanismDelightItems {
     private static final DeferredRegister<Item> ITEMS = DeferredRegister.create(Registries.ITEM, MekanismDelight.MOD_ID);
 
     public static final RegistryObject<Item> INFUSED_SHAKE = ITEMS.register("infused_shake",
-            () -> new AlloyShakeItem(new Item.Properties().craftRemainder(Items.GLASS_BOTTLE).stacksTo(16), AlloyFoodTier.INFUSED));
+            () -> new AlloyShakeItem(new Item.Properties().craftRemainder(Items.GLASS_BOTTLE).stacksTo(16).food(FoodValues.ALLOY_SHAKE_FOOD_PROPERTY), AlloyFoodTier.INFUSED));
     public static final RegistryObject<Item> REINFORCED_SHAKE = ITEMS.register("reinforced_shake",
-            () -> new AlloyShakeItem(new Item.Properties().craftRemainder(Items.GLASS_BOTTLE).stacksTo(16), AlloyFoodTier.REINFORCED));
+            () -> new AlloyShakeItem(new Item.Properties().craftRemainder(Items.GLASS_BOTTLE).stacksTo(16).food(FoodValues.ALLOY_SHAKE_FOOD_PROPERTY), AlloyFoodTier.REINFORCED));
     public static final RegistryObject<Item> ATOMIC_SHAKE = ITEMS.register("atomic_shake",
-            () -> new AlloyShakeItem(new Item.Properties().craftRemainder(Items.GLASS_BOTTLE).stacksTo(16), AlloyFoodTier.ATOMIC));
+            () -> new AlloyShakeItem(new Item.Properties().craftRemainder(Items.GLASS_BOTTLE).stacksTo(16).food(FoodValues.ALLOY_SHAKE_FOOD_PROPERTY), AlloyFoodTier.ATOMIC));
     public static final RegistryObject<Item> INFUSED_JELLY = ITEMS.register("infused_jelly",
             () -> new AlloyJellyItem(new Item.Properties().craftRemainder(Items.GLASS_BOTTLE).stacksTo(16).food(FoodValues.ALLOY_JELLY_FOOD_PROPERTY), AlloyFoodTier.INFUSED));
     public static final RegistryObject<Item> REINFORCED_JELLY = ITEMS.register("reinforced_jelly",
