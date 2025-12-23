@@ -4,13 +4,16 @@ import com.mochi_753.mekanism_delight.addon.mekanismgenerators.MekanismGenerator
 import com.mochi_753.mekanism_delight.addon.mekanismtools.MekanismToolsDelight;
 import com.mochi_753.mekanism_delight.register.MekanismDelightCreativeTab;
 import com.mochi_753.mekanism_delight.register.MekanismDelightItems;
+import com.mojang.logging.LogUtils;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import org.slf4j.Logger;
 
 @Mod(MekanismDelight.MOD_ID)
 public class MekanismDelight {
     public static final String MOD_ID = "mekanismdelight";
+    public static final Logger LOGGER = LogUtils.getLogger();
 
     @SuppressWarnings({"removal", "unused"})
     public MekanismDelight() {
