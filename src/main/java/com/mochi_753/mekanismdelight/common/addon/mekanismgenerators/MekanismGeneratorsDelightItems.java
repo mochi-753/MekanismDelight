@@ -1,8 +1,8 @@
-package com.mochi_753.mekanismdelight.addon.mekanismgenerators;
+package com.mochi_753.mekanismdelight.common.addon.mekanismgenerators;
 
-import com.mochi_753.mekanismdelight.FoodValues;
 import com.mochi_753.mekanismdelight.MekanismDelight;
-import com.mochi_753.mekanismdelight.register.MekanismDelightCreativeTab;
+import com.mochi_753.mekanismdelight.common.FoodValues;
+import com.mochi_753.mekanismdelight.common.register.MekanismDelightCreativeTab;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Items;

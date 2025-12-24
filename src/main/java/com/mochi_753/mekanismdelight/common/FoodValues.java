@@ -1,4 +1,4 @@
-package com.mochi_753.mekanismdelight;
+package com.mochi_753.mekanismdelight.common;
 
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.food.FoodProperties;

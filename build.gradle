@@ -88,6 +88,11 @@ dependencies {
     runtimeOnly fg.deobf("curse.maven:appleskin-248787:4770828") // AppleSkin
 }
 
+mixin {
+    add sourceSets.main, "mixins.${mod_id}.refmap.json"
+    config "mixins.${mod_id}.json"
+}
+
 tasks.named('processResources', ProcessResources).configure {
     var replaceProperties = [
             minecraft_version            : minecraft_version,

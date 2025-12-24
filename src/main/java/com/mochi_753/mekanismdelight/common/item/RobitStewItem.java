@@ -1,4 +1,4 @@
-package com.mochi_753.mekanismdelight.item;
+package com.mochi_753.mekanismdelight.common.item;
 
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.item.ItemStack;

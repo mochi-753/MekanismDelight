@@ -1,4 +1,4 @@
-package com.mochi_753.mekanismdelight.register;
+package com.mochi_753.mekanismdelight.common.register;
 
 import com.mochi_753.mekanismdelight.MekanismDelight;
 import net.minecraft.core.registries.Registries;

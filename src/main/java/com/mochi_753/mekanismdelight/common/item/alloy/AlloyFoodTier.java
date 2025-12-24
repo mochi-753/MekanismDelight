@@ -1,4 +1,4 @@
-package com.mochi_753.mekanismdelight.item.alloy;
+package com.mochi_753.mekanismdelight.common.item.alloy;
 
 public enum AlloyFoodTier {
     INFUSED,

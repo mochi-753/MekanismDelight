@@ -1,12 +1,12 @@
-package com.mochi_753.mekanismdelight.register;
+package com.mochi_753.mekanismdelight.common.register;
 
-import com.mochi_753.mekanismdelight.FoodValues;
 import com.mochi_753.mekanismdelight.MekanismDelight;
-import com.mochi_753.mekanismdelight.item.RadioactiveFoodItem;
-import com.mochi_753.mekanismdelight.item.RobitStewItem;
-import com.mochi_753.mekanismdelight.item.alloy.AlloyFoodTier;
-import com.mochi_753.mekanismdelight.item.alloy.AlloyJellyItem;
-import com.mochi_753.mekanismdelight.item.alloy.AlloyShakeItem;
+import com.mochi_753.mekanismdelight.common.FoodValues;
+import com.mochi_753.mekanismdelight.common.item.RadioactiveFoodItem;
+import com.mochi_753.mekanismdelight.common.item.RobitStewItem;
+import com.mochi_753.mekanismdelight.common.item.alloy.AlloyFoodTier;
+import com.mochi_753.mekanismdelight.common.item.alloy.AlloyJellyItem;
+import com.mochi_753.mekanismdelight.common.item.alloy.AlloyShakeItem;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Items;

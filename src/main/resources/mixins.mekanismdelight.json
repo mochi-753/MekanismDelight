@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "com.mochi_753.mekanismdelight.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "mixins.mekanismdelight.refmap.json",
+  "mixins": [],
+  "client": [],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "minVersion": "0.8"
+}

@@ -1,4 +1,4 @@
-package com.mochi_753.mekanismdelight.item.alloy;
+package com.mochi_753.mekanismdelight.common.item.alloy;
 
 import net.minecraft.ChatFormatting;
 import net.minecraft.network.chat.Component;
