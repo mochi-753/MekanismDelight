@@ -11,4 +11,6 @@ concurrency:
 
 jobs:
   Build:
+    permissions:
+      contents: write
     uses: Mochi-753/GithubActions/.github/workflows/build.yml@1.20.1
