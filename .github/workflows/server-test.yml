@@ -11,4 +11,4 @@ concurrency:
 
 jobs:
   ServerTest:
-    uses: Mochi_753/GithubActions/.github/workflows/server-test.yml@1.20.1
+    uses: Mochi-753/GithubActions/.github/workflows/server-test.yml@1.20.1

@@ -11,4 +11,4 @@ concurrency:
 
 jobs:
   Build:
-    uses: Mochi_753/GithubActions/.github/workflows/build.yml@1.20.1
+    uses: Mochi-753/GithubActions/.github/workflows/build.yml@1.20.1
