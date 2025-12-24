@@ -32,7 +32,7 @@ public class MekanismToolsDelightItems {
             () -> mekanismKnifeItem(Tiers.DIAMOND, MekanismToolsConfig.tools.steel));
 
     private static KnifeItem mekanismKnifeItem(Tier tier, MaterialCreator material) {
-        return new KnifeItem(tier, material.getAttackDamageBonus() - 1.5F, -2.0F, new Item.Properties().durability(material.getUses()));
+        return new KnifeItem(tier, material.getAttackDamageBonus() - 2.5F, -2.0F, new Item.Properties().durability(material.getUses()));
     }
 
     public static void register(IEventBus eventBus) {
