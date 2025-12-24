@@ -6,7 +6,9 @@ import vectorwing.farmersdelight.common.registry.ModEffects;
 
 public class FoodValues {
     public static final FoodProperties ALLOY_SHAKE_FOOD_PROPERTY =
-            new FoodProperties.Builder().nutrition(6).saturationMod(0.75F).fast().build();
+            new FoodProperties.Builder().nutrition(6).saturationMod(0.75F).build();
+    public static final FoodProperties ANTIMATTER_STEW_FOOD_PROPERTY =
+            new FoodProperties.Builder().nutrition(9999999 * 2).saturationMod(0.5F).alwaysEat().build();
     public static final FoodProperties ALLOY_JELLY_FOOD_PROPERTY =
             new FoodProperties.Builder().nutrition(2).saturationMod(1.0F).fast().build();
     public static final FoodProperties DT_DRINK_FOOD_PROPERTY =

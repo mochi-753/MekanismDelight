@@ -1,0 +1,16 @@
+{
+  "type": "mekanism:nucleosynthesizing",
+  "gasInput": {
+    "amount": 10000,
+    "gas": "mekanism:antimatter"
+  },
+  "duration": 24000,
+  "itemInput": {
+    "ingredient": {
+      "item": "minecraft:mushroom_stew"
+    }
+  },
+  "output": {
+    "item": "mekanismdelight:antimatter_stew"
+  }
+}
