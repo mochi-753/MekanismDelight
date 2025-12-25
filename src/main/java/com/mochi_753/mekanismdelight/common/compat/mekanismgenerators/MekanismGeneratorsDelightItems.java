@@ -1,4 +1,4 @@
-package com.mochi_753.mekanismdelight.common.addon.mekanismgenerators;
+package com.mochi_753.mekanismdelight.common.compat.mekanismgenerators;
 
 import com.mochi_753.mekanismdelight.MekanismDelight;
 import com.mochi_753.mekanismdelight.common.FoodValues;

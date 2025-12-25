@@ -1,4 +1,4 @@
-package com.mochi_753.mekanismdelight.common.addon.mekanismtools;
+package com.mochi_753.mekanismdelight.common.compat.mekanismtools;
 
 import com.mochi_753.mekanismdelight.MekanismDelight;
 import com.mochi_753.mekanismdelight.common.register.MekanismDelightCreativeTab;

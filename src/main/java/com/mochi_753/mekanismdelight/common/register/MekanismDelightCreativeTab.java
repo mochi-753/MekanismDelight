@@ -1,6 +1,7 @@
 package com.mochi_753.mekanismdelight.common.register;
 
 import com.mochi_753.mekanismdelight.MekanismDelight;
+import com.mochi_753.mekanismdelight.common.compat.mekanism.MekanismDelightItems;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
