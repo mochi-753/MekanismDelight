@@ -1,0 +1,64 @@
+{
+  "variants": {
+    "facing=south,servings=0": {
+      "model": "mekanismdelight:block/alloy_jelly_medley_0"
+    },
+    "facing=south,servings=1": {
+      "model": "mekanismdelight:block/alloy_jelly_medley_1"
+    },
+    "facing=south,servings=2": {
+      "model": "mekanismdelight:block/alloy_jelly_medley_2"
+    },
+    "facing=south,servings=3": {
+      "model": "mekanismdelight:block/alloy_jelly_medley_3"
+    },
+    "facing=west,servings=0": {
+      "model": "mekanismdelight:block/alloy_jelly_medley_0",
+      "y": 90
+    },
+    "facing=west,servings=1": {
+      "model": "mekanismdelight:block/alloy_jelly_medley_1",
+      "y": 90
+    },
+    "facing=west,servings=2": {
+      "model": "mekanismdelight:block/alloy_jelly_medley_2",
+      "y": 90
+    },
+    "facing=west,servings=3": {
+      "model": "mekanismdelight:block/alloy_jelly_medley_3",
+      "y": 90
+    },
+    "facing=north,servings=0": {
+      "model": "mekanismdelight:block/alloy_jelly_medley_0",
+      "y": 180
+    },
+    "facing=north,servings=1": {
+      "model": "mekanismdelight:block/alloy_jelly_medley_1",
+      "y": 180
+    },
+    "facing=north,servings=2": {
+      "model": "mekanismdelight:block/alloy_jelly_medley_2",
+      "y": 180
+    },
+    "facing=north,servings=3": {
+      "model": "mekanismdelight:block/alloy_jelly_medley_3",
+      "y": 180
+    },
+    "facing=east,servings=0": {
+      "model": "mekanismdelight:block/alloy_jelly_medley_0",
+      "y": 270
+    },
+    "facing=east,servings=1": {
+      "model": "mekanismdelight:block/alloy_jelly_medley_1",
+      "y": 270
+    },
+    "facing=east,servings=2": {
+      "model": "mekanismdelight:block/alloy_jelly_medley_2",
+      "y": 270
+    },
+    "facing=east,servings=3": {
+      "model": "mekanismdelight:block/alloy_jelly_medley_3",
+      "y": 270
+    }
+  }
+}

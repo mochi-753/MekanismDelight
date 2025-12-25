@@ -10,6 +10,7 @@ import com.mochi_753.mekanismdelight.common.item.alloy.AlloyJellyItem;
 import com.mochi_753.mekanismdelight.common.item.alloy.AlloyShakeItem;
 import com.mochi_753.mekanismdelight.common.register.MekanismDelightCreativeTab;
 import net.minecraft.core.registries.Registries;
+import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Items;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -21,6 +22,9 @@ import vectorwing.farmersdelight.common.item.ConsumableItem;
 @SuppressWarnings("unused")
 public class MekanismDelightItems {
     private static final DeferredRegister<Item> ITEMS = DeferredRegister.create(Registries.ITEM, MekanismDelight.MOD_ID);
+
+    public static final RegistryObject<Item> ALLOY_JELLY_MEDLEY = ITEMS.register("alloy_jelly_medley",
+            () -> new BlockItem(MekanismDelightBlocks.ALLOY_JELLY_MEDLEY.get(), new Item.Properties().craftRemainder(Items.GLASS_BOTTLE)));
 
     public static final RegistryObject<Item> FORMERLY_ROBIT = ITEMS.register("formerly_robit",
             () -> new Item(new Item.Properties()));
