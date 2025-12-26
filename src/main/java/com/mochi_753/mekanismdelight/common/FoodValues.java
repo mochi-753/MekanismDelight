@@ -13,6 +13,8 @@ public class FoodValues {
             new FoodProperties.Builder().nutrition(2).saturationMod(1.0F).fast().build();
     public static final FoodProperties DT_DRINK_FOOD_PROPERTY =
             new FoodProperties.Builder().alwaysEat().effect(() -> new MobEffectInstance(ModEffects.NOURISHMENT.get(), 6000, 0), 1.0F).build();
+    public static final FoodProperties POLONIUM_ICE_CREAM_FOOD_PROPERTY =
+            new FoodProperties.Builder().nutrition(4).saturationMod(1.0F).build();
     public static final FoodProperties RADIATION_HAMBURGER_FOOD_PROPERTY =
             new FoodProperties.Builder().nutrition(8).saturationMod(0.75F).alwaysEat().build();
     public static final FoodProperties ROBIT_STEW_FOOD_PROPERTY =
