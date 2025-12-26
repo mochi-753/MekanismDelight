@@ -23,7 +23,9 @@ import java.util.function.Supplier;
 @ParametersAreNonnullByDefault
 public class AlloyJellyMedleyBlock extends FeastBlock {
     public static final IntegerProperty JELLY_SERVINGS = IntegerProperty.create("servings", 0, 3);
-    private static final VoxelShape SHAPE = Block.box(2.0, 0.0, 2.0, 14.0, 15.0, 14.0);
+    private static final VoxelShape SHAPE_0 = Block.box(2.0, 0.0, 2.0, 14.0, 11.0, 14.0); // 0個
+    private static final VoxelShape SHAPE_1_2 = Block.box(2.0, 0.0, 2.0, 14.0, 13.0, 14.0); // 1-2個
+    private static final VoxelShape SHAPE_3 = Block.box(2.0, 0.0, 2.0, 14.0, 15.0, 14.0); // 3個
 
     public final List<Supplier<Item>> alloyJellyServings = Arrays.asList(
             MekanismDelightItems.ATOMIC_JELLY,
@@ -52,7 +54,11 @@ public class AlloyJellyMedleyBlock extends FeastBlock {
 
     @Override
     public VoxelShape getShape(BlockState state, BlockGetter level, BlockPos pos, CollisionContext context) {
-        return SHAPE;
+        return switch (state.getValue(JELLY_SERVINGS)) {
+            case 1, 2 -> SHAPE_1_2;
+            case 3 -> SHAPE_3;
+            default -> SHAPE_0;
+        };
     }
 
     @Override
