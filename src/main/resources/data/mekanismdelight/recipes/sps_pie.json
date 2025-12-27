@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "c": {
+      "item": "mekanism:sps_casing"
+    },
+    "p": {
+      "item": "mekanism:sps_port"
+    },
+    "s": {
+      "item": "mekanism:supercharged_coil"
+    },
+    "O": {
+      "item": "farmersdelight:pie_crust"
+    }
+  },
+  "pattern": [
+    "ccc",
+    "psp",
+    "cOc"
+  ],
+  "result": {
+    "item": "mekanismdelight:sps_pie"
+  },
+  "show_notification": true
+}

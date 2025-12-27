@@ -1,26 +1,21 @@
 {
-  "type": "minecraft:crafting_shaped",
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "key": {
-    "i": {
+  "ingredients": [
+    {
+      "item": "mekanism:robit"
+    },
+    {
       "tag": "forge:alloys/advanced"
     },
-    "r": {
+    {
       "tag": "forge:alloys/elite"
     },
-    "a": {
+    {
       "tag": "forge:alloys/ultimate"
-    },
-    "#": {
-      "item": "mekanism:robit"
     }
-  },
-  "pattern": [
-    "ira",
-    " # "
   ],
   "result": {
     "item": "mekanismdelight:alloy_jelly_medley"
-  },
-  "show_notification": true
+  }
 }

@@ -5,6 +5,7 @@ import com.mochi_753.mekanismdelight.common.FoodValues;
 import com.mochi_753.mekanismdelight.common.item.AntimatterStewItem;
 import com.mochi_753.mekanismdelight.common.item.RadioactiveFoodItem;
 import com.mochi_753.mekanismdelight.common.item.RobitStewItem;
+import com.mochi_753.mekanismdelight.common.item.SPSPieItem;
 import com.mochi_753.mekanismdelight.common.item.alloy.AlloyFoodTier;
 import com.mochi_753.mekanismdelight.common.item.alloy.AlloyJellyItem;
 import com.mochi_753.mekanismdelight.common.item.alloy.AlloyShakeItem;
@@ -54,6 +55,8 @@ public class MekanismDelightItems {
             () -> new ConsumableItem(new Item.Properties().food(FoodValues.SAWDUST_HAMBURGER_FOOD_PROPERTY)));
     public static final RegistryObject<Item> SALTED_RICE_BALL = ITEMS.register("salted_rice_ball",
             () -> new ConsumableItem(new Item.Properties().food(FoodValues.SALTED_RICE_BALL_FOOD_PROPERTY), true));
+    public static final RegistryObject<Item> SPS_PIE = ITEMS.register("sps_pie",
+            () -> new SPSPieItem(new Item.Properties().food(FoodValues.SPS_PIE_FOOD_PROPERTY)));
     public static final RegistryObject<Item> ANTIMATTER_STEW = ITEMS.register("antimatter_stew",
             () -> new AntimatterStewItem(new Item.Properties().craftRemainder(Items.BOWL).stacksTo(16).food(FoodValues.ANTIMATTER_STEW_FOOD_PROPERTY)));
 
