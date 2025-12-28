@@ -2,7 +2,7 @@
 <img src="https://github.com/Mochi-753/MekanismDelight/blob/main/docs/Logo.png?raw=true" alt="Logo">
 
 **MekanismDelight** is a small mod that adds integration features between **Farmer’s Delight** and **Mekanism**.  
-[GitHub Repository](https://github.com/mochi-753/MekanismDelight)
+[GitHub Repository](https://github.com/mochi-753/MekanismDelight) | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/mekanismdelight) | [Modrinth](https://modrinth.com/mod/mekanismdelight)
 
 ## Features
 
@@ -18,7 +18,7 @@ If any Mekanism module is not installed, the corresponding integration features 
 <summary><strong>Mekanism</strong></summary>
 <br>
 
-<b>Alloy Drinks / Alloy Jelly</b><br>
+<b>Alloy Drinks / Alloy Jellies</b><br>
 <img src="https://github.com/Mochi-753/MekanismDelight/blob/main/docs/Alloys.png?raw=true" alt="Alloys" width="50%">
 <br><br>
 
