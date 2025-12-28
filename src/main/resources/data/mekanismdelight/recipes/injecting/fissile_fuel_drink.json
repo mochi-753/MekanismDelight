@@ -1,0 +1,15 @@
+{
+  "type": "mekanism:injecting",
+  "chemicalInput": {
+    "amount": 1,
+    "gas": "mekanism:fissile_fuel"
+  },
+  "itemInput": {
+    "ingredient": {
+      "item": "minecraft:glass_bottle"
+    }
+  },
+  "output": {
+    "item": "mekanismdelight:fissile_fuel_drink"
+  }
+}
