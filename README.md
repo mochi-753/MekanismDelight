@@ -16,13 +16,13 @@ If any Mekanism module is not installed, the corresponding integration features 
 
 <details>
 <summary>Mekanism</summary>
-<br>
+<br />
 
-Alloy Drink / Alloy Jelly  
+<b>Alloy Drink / Alloy Jelly</b>
 <img src="https://github.com/Mochi-753/MekanismDelight/blob/main/docs/Alloys.png" alt="Alloys" width="50%">
 <br>
 
-More unique foods!  
+<b>More unique foods!</b>
 <img src="https://github.com/Mochi-753/MekanismDelight/blob/main/docs/Others.png" alt="Others" width="50%">
 </details>
 
@@ -30,7 +30,7 @@ More unique foods!
 <summary>Mekanism: Generators</summary>
 <br>
 
-Fissile Fuel Drink / D-T Drink  
+<b>Fissile Fuel Drink / D-T Drink</b>
 <img src="https://github.com/Mochi-753/MekanismDelight/blob/main/docs/MekanismGenerators.png" alt="MekanismGenerators" width="50%">
 </details>
 
@@ -38,7 +38,7 @@ Fissile Fuel Drink / D-T Drink
 <summary>Mekanism: Tools</summary>
 <br>
 
-6 type of knives!  
+<b>6 type of knives!</b>
 <img src="https://github.com/Mochi-753/MekanismDelight/blob/main/docs/Knives.png" alt="Knives" width="50%">
 </details>
 
