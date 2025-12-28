@@ -1,5 +1,5 @@
 # MekanismDelight
-<img src="https://github.com/Mochi-753/MekanismDelight/blob/main/docs/Logo.png" alt="Logo">
+<img src="https://github.com/Mochi-753/MekanismDelight/blob/main/docs/Logo.png?raw=true" alt="Logo">
 
 **MekanismDelight** is a small mod that adds integration features between **Farmer’s Delight** and **Mekanism**.  
 [GitHub Repository](https://github.com/mochi-753/MekanismDelight)
@@ -19,11 +19,11 @@ If any Mekanism module is not installed, the corresponding integration features 
 <br>
 
 <b>Alloy Drinks / Alloy Jelly</b><br>
-<img src="https://github.com/Mochi-753/MekanismDelight/blob/main/docs/Alloys.png" alt="Alloys" width="50%">
+<img src="https://github.com/Mochi-753/MekanismDelight/blob/main/docs/Alloys.png?raw=true" alt="Alloys" width="50%">
 <br><br>
 
 <b>More unique foods</b><br>
-<img src="https://github.com/Mochi-753/MekanismDelight/blob/main/docs/Others.png" alt="Other foods" width="50%">
+<img src="https://github.com/Mochi-753/MekanismDelight/blob/main/docs/Others.png?raw=true" alt="Other foods" width="50%">
 </details>
 
 <details>
@@ -31,7 +31,7 @@ If any Mekanism module is not installed, the corresponding integration features 
 <br>
 
 <b>Fissile Fuel Drink / D-T Drink</b><br>
-<img src="https://github.com/Mochi-753/MekanismDelight/blob/main/docs/MekanismGenerators.png" alt="Mekanism Generators" width="50%">
+<img src="https://github.com/Mochi-753/MekanismDelight/blob/main/docs/MekanismGenerators.png?raw=true" alt="Mekanism Generators" width="50%">
 </details>
 
 <details>
@@ -39,7 +39,7 @@ If any Mekanism module is not installed, the corresponding integration features 
 <br>
 
 <b>Six types of knives</b><br>
-<img src="https://github.com/Mochi-753/MekanismDelight/blob/main/docs/Knives.png" alt="Knives" width="50%">
+<img src="https://github.com/Mochi-753/MekanismDelight/blob/main/docs/Knives.png?raw=true" alt="Knives" width="50%">
 </details>
 
 </details>
