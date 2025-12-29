@@ -1,8 +1,10 @@
 # MekanismDelight
-<img src="https://github.com/Mochi-753/MekanismDelight/blob/main/docs/Logo.png?raw=true" alt="Logo">
+[![CurseForge](https://img.shields.io/badge/CurseForge-Download-orange?logo=curseforge)](https://www.curseforge.com/minecraft/mc-mods/mekanismdelight)
+[![Modrinth](https://img.shields.io/badge/Modrinth-Download-brightgreen?logo=modrinth)](https://modrinth.com/mod/mekanismdelight)
 
-**MekanismDelight** is a small mod that adds integration features between **Farmer’s Delight** and **Mekanism**.  
-[GitHub Repository](https://github.com/mochi-753/MekanismDelight) | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/mekanismdelight) | [Modrinth](https://modrinth.com/mod/mekanismdelight)
+![Logo](https://github.com/Mochi-753/MekanismDelight/blob/main/docs/Logo.png?raw=true)
+
+**MekanismDelight** is a small mod that adds integration features between **Farmer’s Delight** and **Mekanism**.
 
 ## Features
 
