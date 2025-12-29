@@ -5,7 +5,7 @@
 [![CurseForge](https://img.shields.io/badge/CurseForge-MekanismDelight-orange?logo=curseforge)](https://www.curseforge.com/minecraft/mc-mods/mekanismdelight)
 [![Modrinth](https://img.shields.io/badge/Modrinth-MekanismDelight-brightgreen?logo=modrinth)](https://modrinth.com/mod/mekanismdelight)
 
-**MekanismDelight** is a small mod that adds integration features between **Farmer’s Delight** and **Mekanism**.
+**MekanismDelight** is a small mod that adds integration features between **Farmer's Delight** and **Mekanism**.
 
 ## Features
 
@@ -50,7 +50,7 @@ If any Mekanism module is not installed, the corresponding integration features 
 ## License
 
 This mod is provided under the **MIT License**.  
-It includes code and assets from **Mekanism** and **Farmer’s Delight**, which are also licensed under the MIT License.  
+It includes code and assets from **Mekanism** and **Farmer's Delight**, which are also licensed under the MIT License.  
 The full license texts can be found in the `LICENSES` directory. [(GitHub)](https://github.com/mochi-753/MekanismDelight/tree/main/LICENSES)
 
 Special thanks to the developers of these excellent mods.
