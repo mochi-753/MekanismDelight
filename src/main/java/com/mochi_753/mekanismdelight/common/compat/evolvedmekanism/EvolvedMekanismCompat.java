@@ -8,6 +8,10 @@ public class EvolvedMekanismCompat {
         if (FMLLoader.getLoadingModList().getModFileById("evolvedmekanism") != null) {
             EvolvedMekanismDelightItems.register(eventBus);
             eventBus.addListener(EvolvedMekanismDelightItems::onBuildCreativeModeTabContents);
+            if (FMLLoader.getLoadingModList().getModFileById("mekanismtools") != null) {
+                EvolvedMekanismToolsDelightItems.register(eventBus);
+                eventBus.addListener(EvolvedMekanismToolsDelightItems::onBuildCreativeModeTabContents);
+            }
         }
     }
 }
