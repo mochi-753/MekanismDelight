@@ -10,7 +10,7 @@ authors = "${mod_authors}"
 description = '''${mod_description}'''
 logoFile = "logo.png"
 logoBlur = false
-credits ="This mod includes code and assets from Mekanism and Farmer's Delight, which are also licensed under the MIT License. Special thanks to the developers of these excellent mods."
+credits ="This mod includes code and assets from Mekanism, Mekanism Extras, Evolved Mekanism and Farmer's Delight, which are also licensed under the MIT License. Special thanks to the developers of these excellent mods."
 
 [[dependencies.${ mod_id }]]
 modId = "forge"

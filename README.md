@@ -50,7 +50,7 @@ If any Mekanism module is not installed, the corresponding integration features 
 ## License
 
 This mod is provided under the **MIT License**.  
-It includes code and assets from **Mekanism** and **Farmer's Delight**, which are also licensed under the MIT License.  
+It includes code and assets from **Mekanism**, **Mekanism Extras**, **Evolved Mekanism** and **Farmer's Delight**, which are also licensed under the MIT License.  
 The full license texts can be found in the `LICENSES` directory. [(GitHub)](https://github.com/mochi-753/MekanismDelight/tree/main/LICENSES)
 
 Special thanks to the developers of these excellent mods.
