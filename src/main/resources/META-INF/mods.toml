@@ -10,7 +10,7 @@ authors = "${mod_authors}"
 description = '''${mod_description}'''
 logoFile = "logo.png"
 logoBlur = false
-credits ="This mod includes code and assets from Mekanism, Mekanism Extras, Evolved Mekanism and Farmer's Delight, which are also licensed under the MIT License. Special thanks to the developers of these excellent mods."
+credits = "This mod includes code and assets from Mekanism, Mekanism Extras, Evolved Mekanism and Farmer's Delight, which are also licensed under the MIT License. Special thanks to the developers of these excellent mods."
 
 [[dependencies.${ mod_id }]]
 modId = "forge"
@@ -58,5 +58,19 @@ side = "BOTH"
 modId = "mekanismtools"
 mandatory = false
 versionRange = "${mekanism_version_range}"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.${ mod_id }]]
+modId = "mekanism_extras"
+mandatory = false
+versionRange = "[1.4,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.${ mod_id }]]
+modId = "evolvedmekanism"
+mandatory = false
+versionRange = "[1.2,)"
 ordering = "NONE"
 side = "BOTH"
