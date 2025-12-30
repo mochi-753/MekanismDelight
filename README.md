@@ -10,7 +10,7 @@
 ## Features
 
 **MekanismDelight works out of the box—just install it.**  
-Integration features are provided for **Mekanism**, **Mekanism: Generators**, and **Mekanism: Tools**.  
+Integration features are provided for **Mekanism**, **Mekanism: Generators**, **Mekanism: Tools**, **Mekanism Extras**, and **Evolved Mekanism**.  
 If any Mekanism module is not installed, the corresponding integration features will be automatically disabled.
 
 <details>
