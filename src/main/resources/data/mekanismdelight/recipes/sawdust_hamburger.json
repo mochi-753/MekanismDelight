@@ -17,5 +17,11 @@
   ],
   "result": {
     "item": "mekanismdelight:sawdust_hamburger"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:item_exists",
+      "item": "mekanismdelight:sawdust_hamburger"
+    }
+  ]
 }

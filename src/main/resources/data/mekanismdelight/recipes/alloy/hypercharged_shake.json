@@ -15,5 +15,11 @@
   "result": {
     "count": 1,
     "item": "mekanismdelight:hypercharged_shake"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:item_exists",
+      "item": "mekanismdelight:hypercharged_shake"
+    }
+  ]
 }

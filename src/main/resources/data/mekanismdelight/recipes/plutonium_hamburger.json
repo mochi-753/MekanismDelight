@@ -17,5 +17,11 @@
   ],
   "result": {
     "item": "mekanismdelight:plutonium_hamburger"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:item_exists",
+      "item": "mekanismdelight:plutonium_hamburger"
+    }
+  ]
 }

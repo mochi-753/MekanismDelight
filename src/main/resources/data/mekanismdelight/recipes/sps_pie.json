@@ -23,5 +23,11 @@
   "result": {
     "item": "mekanismdelight:sps_pie"
   },
-  "show_notification": true
+  "show_notification": true,
+  "conditions": [
+    {
+      "type": "forge:item_exists",
+      "item": "mekanismdelight:sps_pie"
+    }
+  ]
 }

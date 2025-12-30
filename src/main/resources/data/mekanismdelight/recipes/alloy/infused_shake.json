@@ -15,5 +15,11 @@
   "result": {
     "count": 1,
     "item": "mekanismdelight:infused_shake"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:item_exists",
+      "item": "mekanismdelight:infused_shake"
+    }
+  ]
 }

@@ -13,5 +13,11 @@
   ],
   "tool": {
     "tag": "forge:tools/knives"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:item_exists",
+      "item": "mekanismdelight:formerly_robit"
+    }
+  ]
 }

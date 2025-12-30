@@ -12,5 +12,11 @@
   },
   "output": {
     "item": "mekanismdelight:antimatter_stew"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:item_exists",
+      "item": "mekanismdelight:antimatter_stew"
+    }
+  ]
 }

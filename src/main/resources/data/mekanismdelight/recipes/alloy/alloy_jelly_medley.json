@@ -17,5 +17,11 @@
   ],
   "result": {
     "item": "mekanismdelight:alloy_jelly_medley"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:item_exists",
+      "item": "mekanismdelight:alloy_jelly_medley"
+    }
+  ]
 }

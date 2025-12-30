@@ -16,5 +16,11 @@
   "result": {
     "item": "mekanismdelight:better_gold_knife"
   },
-  "show_notification": true
+  "show_notification": true,
+  "conditions": [
+    {
+      "type": "forge:item_exists",
+      "item": "mekanismdelight:better_gold_knife"
+    }
+  ]
 }

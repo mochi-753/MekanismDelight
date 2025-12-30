@@ -11,5 +11,11 @@
   },
   "output": {
     "item": "mekanismdelight:fissile_fuel_drink"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:item_exists",
+      "item": "mekanismdelight:fissile_fuel_drink"
+    }
+  ]
 }

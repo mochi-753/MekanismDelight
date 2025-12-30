@@ -19,5 +19,11 @@
   "recipe_book_tab": "meals",
   "result": {
     "item": "mekanismdelight:robit_stew"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:item_exists",
+      "item": "mekanismdelight:robit_stew"
+    }
+  ]
 }

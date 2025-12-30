@@ -10,5 +10,11 @@
   "recipe_book_tab": "drinks",
   "result": {
     "item": "mekanismdelight:dt_drink"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:item_exists",
+      "item": "mekanismdelight:dt_drink"
+    }
+  ]
 }

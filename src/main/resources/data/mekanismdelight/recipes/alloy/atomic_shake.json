@@ -15,5 +15,11 @@
   "result": {
     "count": 1,
     "item": "mekanismdelight:atomic_shake"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:item_exists",
+      "item": "mekanismdelight:atomic_shake"
+    }
+  ]
 }

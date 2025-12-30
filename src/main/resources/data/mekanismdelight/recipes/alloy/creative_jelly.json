@@ -12,5 +12,11 @@
   "result": {
     "count": 1,
     "item": "mekanismdelight:creative_jelly"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:item_exists",
+      "item": "mekanismdelight:creative_jelly"
+    }
+  ]
 }

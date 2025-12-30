@@ -20,5 +20,11 @@
   },
   "itemOutput": {
     "item": "mekanismdelight:polonium_ice_cream"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:item_exists",
+      "item": "mekanismdelight:polonium_ice_cream"
+    }
+  ]
 }

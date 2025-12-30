@@ -12,5 +12,11 @@
   "result": {
     "count": 1,
     "item": "mekanismdelight:subatomic_jelly"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:item_exists",
+      "item": "mekanismdelight:subatomic_jelly"
+    }
+  ]
 }
