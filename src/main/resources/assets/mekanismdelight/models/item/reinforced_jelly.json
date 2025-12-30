@@ -2,6 +2,6 @@
   "parent": "minecraft:item/generated",
   "textures": {
     "layer0": "mekanism:item/alloy_reinforced",
-    "layer1": "mekanismdelight:item/alloy_jelly"
+    "layer1": "mekanismdelight:item/alloy/alloy_jelly"
   }
 }

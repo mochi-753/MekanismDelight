@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "m": {
+      "tag": "forge:ingots/better_gold"
+    },
+    "s": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "m",
+    "s"
+  ],
+  "result": {
+    "item": "mekanismdelight:better_gold_knife"
+  },
+  "show_notification": true
+}

@@ -49,6 +49,11 @@ public class AlloyShakeItem extends DrinkableItem {
             case INFUSED -> 1;
             case REINFORCED -> 2;
             case ATOMIC -> 4;
+
+            case RADIANCE, HYPERCHARGED -> 6;
+            case THERMONUCLEAR, SUBATOMIC -> 8;
+            case SHINING, SINGULAR -> 10;
+            case SPECTRUM, EXOVERSAL, CREATIVE -> 10000;
         };
 
         for (int i = 0; i < removalEffectsCount && !compatibleEffects.isEmpty(); i++) {
@@ -66,21 +71,40 @@ public class AlloyShakeItem extends DrinkableItem {
     public void appendHoverText(ItemStack stack, @Nullable Level level, List<Component> tooltip, TooltipFlag isAdvanced) {
         if (Configuration.FOOD_EFFECT_TOOLTIP.get()) {
             MutableComponent component = switch (this.tier) {
-                case INFUSED -> Component.translatable("tooltip.mekanismdelight.infused_shake");
-                case REINFORCED -> Component.translatable("tooltip.mekanismdelight.reinforced_shake");
-                case ATOMIC -> Component.translatable("tooltip.mekanismdelight.atomic_shake");
+                case INFUSED -> Component.translatable("tooltip.mekanismdelight.alloy_shake.1");
+                case REINFORCED -> Component.translatable("tooltip.mekanismdelight.alloy_shake.2");
+                case ATOMIC -> Component.translatable("tooltip.mekanismdelight.alloy_shake.4");
+
+                case RADIANCE, HYPERCHARGED -> Component.translatable("tooltip.mekanismdelight.alloy_shake.6");
+                case THERMONUCLEAR, SUBATOMIC -> Component.translatable("tooltip.mekanismdelight.alloy_shake.8");
+                case SHINING, SINGULAR -> Component.translatable("tooltip.mekanismdelight.alloy_shake.10");
+                case SPECTRUM, EXOVERSAL, CREATIVE -> Component.translatable("tooltip.mekanismdelight.alloy_shake.all");
             };
             tooltip.add(component.withStyle(ChatFormatting.BLUE));
         }
     }
 
+    @SuppressWarnings("DuplicateBranchesInSwitch")
     @Override
     public @NotNull Component getName(ItemStack pStack) {
         MutableComponent component = (MutableComponent) super.getName(pStack);
-        return component.withStyle(switch (this.tier) {
-            case INFUSED -> ChatFormatting.YELLOW;
-            case REINFORCED -> ChatFormatting.AQUA;
-            case ATOMIC -> ChatFormatting.LIGHT_PURPLE;
+        return component.withStyle(style -> switch (this.tier) {
+            // Mekanism
+            case INFUSED -> style.withColor(ChatFormatting.YELLOW);
+            case REINFORCED -> style.withColor(ChatFormatting.AQUA);
+            case ATOMIC -> style.withColor(ChatFormatting.LIGHT_PURPLE);
+
+            // Mekanism Extras
+            case RADIANCE -> style.withColor(ChatFormatting.WHITE);
+            case THERMONUCLEAR -> style.withColor(ChatFormatting.YELLOW);
+            case SHINING -> style.withColor(ChatFormatting.AQUA);
+            case SPECTRUM -> style.withColor(ChatFormatting.LIGHT_PURPLE);
+
+            // Evolved Mekanism
+            case HYPERCHARGED -> style.withColor(0x00DD00);
+            case SUBATOMIC -> style.withColor(0xFC9EFA);
+            case SINGULAR -> style.withColor(0xFDF55F);
+            case EXOVERSAL, CREATIVE -> style.withColor(0x5A575A);
         });
     }
 }

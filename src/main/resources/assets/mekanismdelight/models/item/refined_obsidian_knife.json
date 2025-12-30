@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/handheld",
   "textures": {
-    "layer0": "mekanismdelight:item/refined_obsidian_knife"
+    "layer0": "mekanismdelight:item/knife/refined_obsidian_knife"
   }
 }

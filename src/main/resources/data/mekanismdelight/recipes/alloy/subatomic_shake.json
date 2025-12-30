@@ -9,11 +9,11 @@
       "item": "minecraft:sugar"
     },
     {
-      "item": "mekanism:alloy_infused"
+      "tag": "forge:alloys/quantum"
     }
   ],
   "result": {
     "count": 1,
-    "item": "mekanismdelight:infused_shake"
+    "item": "mekanismdelight:subatomic_shake"
   }
 }

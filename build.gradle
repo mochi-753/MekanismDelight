@@ -83,6 +83,10 @@ dependencies {
     implementation fg.deobf("mekanism:Mekanism:${mekanism_version}:generators")
     implementation fg.deobf("mekanism:Mekanism:${mekanism_version}:tools")
 
+    implementation fg.deobf("curse.maven:mekanism-extras-1026040:6936409") // Mekanism Extras
+    implementation fg.deobf("curse.maven:iglee-library-541199:6987117") // Iglee's Library
+    implementation fg.deobf("curse.maven:evolved-mekanism-1230085:7321385") // Evolved Mekanism
+
     runtimeOnly fg.deobf("curse.maven:jei-238222:7270446") // JEI
     runtimeOnly fg.deobf("curse.maven:jade-324717:6855440") // Jade
     runtimeOnly fg.deobf("curse.maven:appleskin-248787:4770828") // AppleSkin

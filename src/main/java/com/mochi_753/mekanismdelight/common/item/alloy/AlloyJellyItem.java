@@ -18,13 +18,27 @@ public class AlloyJellyItem extends ConsumableItem {
         this.tier = tier;
     }
 
+    @SuppressWarnings("DuplicateBranchesInSwitch")
     @Override
     public @NotNull Component getName(ItemStack pStack) {
         MutableComponent component = (MutableComponent) super.getName(pStack);
-        return component.withStyle(switch (this.tier) {
-            case INFUSED -> ChatFormatting.YELLOW;
-            case REINFORCED -> ChatFormatting.AQUA;
-            case ATOMIC -> ChatFormatting.LIGHT_PURPLE;
+        return component.withStyle(style -> switch (this.tier) {
+            // Mekanism
+            case INFUSED -> style.withColor(ChatFormatting.YELLOW);
+            case REINFORCED -> style.withColor(ChatFormatting.AQUA);
+            case ATOMIC -> style.withColor(ChatFormatting.LIGHT_PURPLE);
+
+            // Mekanism Extras
+            case RADIANCE -> style.withColor(ChatFormatting.WHITE);
+            case THERMONUCLEAR -> style.withColor(ChatFormatting.YELLOW);
+            case SHINING -> style.withColor(ChatFormatting.AQUA);
+            case SPECTRUM -> style.withColor(ChatFormatting.LIGHT_PURPLE);
+
+            // Evolved Mekanism
+            case HYPERCHARGED -> style.withColor(0x00DD00);
+            case SUBATOMIC -> style.withColor(0xFC9EFA);
+            case SINGULAR -> style.withColor(0xFDF55F);
+            case EXOVERSAL, CREATIVE -> style.withColor(0x5A575A);
         });
     }
 }

@@ -1,6 +1,6 @@
 {
   "parent": "farmersdelight:item/mug",
   "textures": {
-    "layer0": "mekanismdelight:item/atomic_shake"
+    "layer0": "mekanismdelight:item/alloy/atomic_shake"
   }
 }

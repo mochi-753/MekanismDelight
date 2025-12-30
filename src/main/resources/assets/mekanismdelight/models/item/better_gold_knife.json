@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "mekanismdelight:item/knife/better_gold_knife"
+  }
+}

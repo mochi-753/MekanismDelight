@@ -1,6 +1,8 @@
 package com.mochi_753.mekanismdelight;
 
+import com.mochi_753.mekanismdelight.common.compat.evolvedmekanism.EvolvedMekanismCompat;
 import com.mochi_753.mekanismdelight.common.compat.mekanism.MekanismCompat;
+import com.mochi_753.mekanismdelight.common.compat.mekanism_extras.MekanismExtrasCompat;
 import com.mochi_753.mekanismdelight.common.compat.mekanismgenerators.MekanismGeneratorsCompat;
 import com.mochi_753.mekanismdelight.common.compat.mekanismtools.MekanismToolsCompat;
 import com.mochi_753.mekanismdelight.common.register.MekanismDelightCreativeTab;
@@ -28,5 +30,7 @@ public class MekanismDelight {
         new MekanismCompat(eventBus);
         new MekanismGeneratorsCompat(eventBus);
         new MekanismToolsCompat(eventBus);
+        new MekanismExtrasCompat(eventBus);
+        new EvolvedMekanismCompat(eventBus);
     }
 }

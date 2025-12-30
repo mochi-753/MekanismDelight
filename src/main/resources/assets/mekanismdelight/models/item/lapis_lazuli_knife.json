@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/handheld",
   "textures": {
-    "layer0": "mekanismdelight:item/lapis_lazuli_knife"
+    "layer0": "mekanismdelight:item/knife/lapis_lazuli_knife"
   }
 }

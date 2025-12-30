@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:glass_bottle"
+    },
+    {
+      "tag": "forge:alloys/multiversal"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "item": "mekanismdelight:exoversal_jelly"
+  }
+}

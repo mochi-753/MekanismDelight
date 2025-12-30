@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "m": {
+      "tag": "forge:ingots/plaslitherite"
+    },
+    "s": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "m",
+    "s"
+  ],
+  "result": {
+    "item": "mekanismdelight:plaslitherite_knife"
+  },
+  "show_notification": true
+}

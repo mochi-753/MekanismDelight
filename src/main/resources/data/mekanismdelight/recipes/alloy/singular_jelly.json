@@ -6,14 +6,11 @@
       "item": "minecraft:glass_bottle"
     },
     {
-      "item": "minecraft:sugar"
-    },
-    {
-      "item": "mekanism:alloy_atomic"
+      "tag": "forge:alloys/dense"
     }
   ],
   "result": {
     "count": 1,
-    "item": "mekanismdelight:atomic_shake"
+    "item": "mekanismdelight:singular_jelly"
   }
 }
