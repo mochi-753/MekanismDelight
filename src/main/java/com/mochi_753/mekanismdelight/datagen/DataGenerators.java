@@ -20,6 +20,7 @@ public class DataGenerators {
         ExistingFileHelper existingFileHelper = event.getExistingFileHelper();
 
         CompletableFuture<HolderLookup.Provider> provider = event.getLookupProvider();
+        generator.addProvider(event.includeServer(), new MekanismDelightBlockStateProvider(packOutput, existingFileHelper));
         generator.addProvider(event.includeServer(), new MekanismDelightRecipeProvider(packOutput));
     }
 }
