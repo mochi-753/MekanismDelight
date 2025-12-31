@@ -21,6 +21,8 @@ public class DataGenerators {
 
         CompletableFuture<HolderLookup.Provider> provider = event.getLookupProvider();
         generator.addProvider(event.includeServer(), new MekanismDelightBlockStateProvider(packOutput, existingFileHelper));
+        generator.addProvider(event.includeServer(), new MekanismDelightLanguageProvider(packOutput, "en_us"));
+        generator.addProvider(event.includeServer(), new MekanismDelightLanguageProvider(packOutput, "ja_jp"));
         generator.addProvider(event.includeServer(), new MekanismDelightRecipeProvider(packOutput));
     }
 }
