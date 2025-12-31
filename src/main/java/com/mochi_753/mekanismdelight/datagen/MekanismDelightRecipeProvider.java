@@ -12,7 +12,6 @@ import mekanism.common.registries.MekanismItems;
 import mekanism.common.tags.MekanismTags;
 import mekanism.generators.common.MekanismGenerators;
 import net.minecraft.advancements.critereon.InventoryChangeTrigger;
-import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.*;
 import net.minecraft.resources.ResourceLocation;
@@ -24,6 +23,7 @@ import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraftforge.common.Tags;
 import net.minecraftforge.common.crafting.ConditionalRecipe;
 import net.minecraftforge.common.crafting.conditions.ItemExistsCondition;
+import net.minecraftforge.registries.ForgeRegistries;
 import vectorwing.farmersdelight.client.recipebook.CookingPotRecipeBookTab;
 import vectorwing.farmersdelight.common.registry.ModItems;
 import vectorwing.farmersdelight.common.tag.ForgeTags;
@@ -31,17 +31,18 @@ import vectorwing.farmersdelight.data.builder.CookingPotRecipeBuilder;
 import vectorwing.farmersdelight.data.builder.CuttingBoardRecipeBuilder;
 
 import javax.annotation.ParametersAreNonnullByDefault;
+import java.util.Objects;
 import java.util.function.Consumer;
 
 @ParametersAreNonnullByDefault
-@SuppressWarnings({"deprecation", "removal"})
+@SuppressWarnings("removal")
 public class MekanismDelightRecipeProvider extends RecipeProvider {
     public MekanismDelightRecipeProvider(PackOutput pOutput) {
         super(pOutput);
     }
 
     private static void conditionalShaped(Consumer<FinishedRecipe> consumer, ShapedRecipeBuilder builder) {
-        ResourceLocation resultId = BuiltInRegistries.ITEM.getKey(builder.getResult());
+        ResourceLocation resultId = Objects.requireNonNull(ForgeRegistries.ITEMS.getKey(builder.getResult()));
         ConditionalRecipe.builder()
                 .addCondition(new ItemExistsCondition(resultId))
                 .addRecipe(builder::save)
@@ -49,7 +50,7 @@ public class MekanismDelightRecipeProvider extends RecipeProvider {
     }
 
     private static void conditionalShapeless(Consumer<FinishedRecipe> consumer, ShapelessRecipeBuilder builder) {
-        ResourceLocation resultId = BuiltInRegistries.ITEM.getKey(builder.getResult());
+        ResourceLocation resultId = Objects.requireNonNull(ForgeRegistries.ITEMS.getKey(builder.getResult()));
         ConditionalRecipe.builder()
                 .addCondition(new ItemExistsCondition(resultId))
                 .addRecipe(builder::save)
@@ -140,8 +141,8 @@ public class MekanismDelightRecipeProvider extends RecipeProvider {
 
         // Cooking Pot Recipes
         CookingPotRecipeBuilder.cookingPotRecipe(MekanismGeneratorsDelightItems.DT_DRINK.get(), 1, 100, 2.0F)
-                .addIngredient(BuiltInRegistries.ITEM.get(new ResourceLocation(MekanismGenerators.MODID, "fusion_fuel_bucket")))
-                .unlockedBy("has_fusion_fuel", InventoryChangeTrigger.TriggerInstance.hasItems(BuiltInRegistries.ITEM.get(new ResourceLocation(MekanismGenerators.MODID, "fusion_fuel_bucket"))))
+                .addIngredient(Objects.requireNonNull(ForgeRegistries.ITEMS.getValue(new ResourceLocation(MekanismGenerators.MODID, "fusion_fuel_bucket"))))
+                .unlockedBy("has_fusion_fuel", InventoryChangeTrigger.TriggerInstance.hasItems(Objects.requireNonNull(ForgeRegistries.ITEMS.getValue(new ResourceLocation(MekanismGenerators.MODID, "fusion_fuel_bucket")))))
                 .setRecipeBookTab(CookingPotRecipeBookTab.DRINKS)
                 .build(consumer);
         CookingPotRecipeBuilder.cookingPotRecipe(MekanismDelightItems.ROBIT_STEW.get(), 1, 200, 1.0F)
