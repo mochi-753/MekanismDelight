@@ -1,0 +1,34 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:item_exists",
+          "item": "mekanismdelight:alloy_jelly_medley"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "category": "misc",
+        "ingredients": [
+          {
+            "item": "mekanism:robit"
+          },
+          {
+            "tag": "forge:alloys/advanced"
+          },
+          {
+            "tag": "forge:alloys/elite"
+          },
+          {
+            "tag": "forge:alloys/ultimate"
+          }
+        ],
+        "result": {
+          "item": "mekanismdelight:alloy_jelly_medley"
+        }
+      }
+    }
+  ]
+}

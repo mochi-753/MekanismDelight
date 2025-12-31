@@ -1,0 +1,29 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:item_exists",
+          "item": "mekanismdelight:salted_rice_ball"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "category": "misc",
+        "ingredients": [
+          {
+            "item": "farmersdelight:cooked_rice"
+          },
+          {
+            "tag": "forge:dusts/salt"
+          }
+        ],
+        "result": {
+          "count": 2,
+          "item": "mekanismdelight:salted_rice_ball"
+        }
+      }
+    }
+  ]
+}

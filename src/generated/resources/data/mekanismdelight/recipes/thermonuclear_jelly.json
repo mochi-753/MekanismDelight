@@ -1,0 +1,28 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:item_exists",
+          "item": "mekanismdelight:thermonuclear_jelly"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "category": "misc",
+        "ingredients": [
+          {
+            "item": "minecraft:glass_bottle"
+          },
+          {
+            "tag": "forge:alloys/supreme"
+          }
+        ],
+        "result": {
+          "item": "mekanismdelight:thermonuclear_jelly"
+        }
+      }
+    }
+  ]
+}
