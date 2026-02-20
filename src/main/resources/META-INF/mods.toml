@@ -1,0 +1,76 @@
+modLoader = "javafml"
+loaderVersion = "${loader_version_range}"
+license = "${mod_license}"
+
+[[mods]]
+modId = "${mod_id}"
+version = "${mod_version}"
+displayName = "${mod_name}"
+authors = "${mod_authors}"
+description = '''${mod_description}'''
+logoFile = "logo.png"
+logoBlur = false
+credits = "This mod includes code and assets from Mekanism, Mekanism Extras, Evolved Mekanism and Farmer's Delight, which are also licensed under the MIT License. Special thanks to the developers of these excellent mods."
+
+[[dependencies.${ mod_id }]]
+modId = "forge"
+mandatory = true
+versionRange = "${forge_version_range}"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.${ mod_id }]]
+modId = "minecraft"
+mandatory = true
+versionRange = "${minecraft_version_range}"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.${ mod_id }]]
+modId = "farmersdelight"
+mandatory = true
+versionRange = "${farmers_delight_version_range}"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.${ mod_id }]]
+modId = "mekanism"
+mandatory = false
+versionRange = "${mekanism_version_range}"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.${ mod_id }]]
+modId = "mekanismadditions"
+mandatory = false
+versionRange = "${mekanism_version_range}"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.${ mod_id }]]
+modId = "mekanismgenerators"
+mandatory = false
+versionRange = "${mekanism_version_range}"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.${ mod_id }]]
+modId = "mekanismtools"
+mandatory = false
+versionRange = "${mekanism_version_range}"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.${ mod_id }]]
+modId = "mekanism_extras"
+mandatory = false
+versionRange = "[1.4,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.${ mod_id }]]
+modId = "evolvedmekanism"
+mandatory = false
+versionRange = "[1.2,)"
+ordering = "NONE"
+side = "BOTH"

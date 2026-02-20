@@ -1,0 +1,28 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:item_exists",
+          "item": "mekanismdelight:shining_jelly"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "category": "misc",
+        "ingredients": [
+          {
+            "item": "minecraft:glass_bottle"
+          },
+          {
+            "tag": "forge:alloys/cosmic"
+          }
+        ],
+        "result": {
+          "item": "mekanismdelight:shining_jelly"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+name: Server Test
+
+on:
+  workflow_dispatch:
+  push:
+  pull_request:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}-server
+  cancel-in-progress: true
+
+jobs:
+  ServerTest:
+    permissions:
+      contents: write
+    uses: Mochi-753/GithubActions/.github/workflows/server-test.yml@1.20.1

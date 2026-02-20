@@ -1,0 +1,41 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "mekanismdelight:bronze_knife",
+      "required": false
+    },
+    {
+      "id": "mekanismdelight:lapis_lazuli_knife",
+      "required": false
+    },
+    {
+      "id": "mekanismdelight:osmium_knife",
+      "required": false
+    },
+    {
+      "id": "mekanismdelight:refined_glowstone_knife",
+      "required": false
+    },
+    {
+      "id": "mekanismdelight:refined_obsidian_knife",
+      "required": false
+    },
+    {
+      "id": "mekanismdelight:steel_knife",
+      "required": false
+    },
+    {
+      "id": "mekanismdelight:better_gold_knife",
+      "required": false
+    },
+    {
+      "id": "mekanismdelight:plaslitherite_knife",
+      "required": false
+    },
+    {
+      "id": "mekanismdelight:refined_redstone_knife",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "type": "mekanism:reaction",
+  "duration": 100,
+  "fluidInput": {
+    "amount": 1000,
+    "tag": "minecraft:water"
+  },
+  "gasInput": {
+    "amount": 1000,
+    "gas": "mekanism:polonium"
+  },
+  "gasOutput": {
+    "amount": 1000,
+    "gas": "mekanism:spent_nuclear_waste"
+  },
+  "itemInput": {
+    "ingredient": {
+      "item": "minecraft:glass_bottle"
+    }
+  },
+  "itemOutput": {
+    "item": "mekanismdelight:polonium_ice_cream"
+  },
+  "conditions": [
+    {
+      "type": "forge:item_exists",
+      "item": "mekanismdelight:polonium_ice_cream"
+    }
+  ]
+}

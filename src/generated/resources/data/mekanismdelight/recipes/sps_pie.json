@@ -1,0 +1,40 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:item_exists",
+          "item": "mekanismdelight:sps_pie"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "category": "misc",
+        "key": {
+          "O": {
+            "item": "farmersdelight:pie_crust"
+          },
+          "c": {
+            "item": "mekanism:sps_casing"
+          },
+          "p": {
+            "item": "mekanism:sps_port"
+          },
+          "s": {
+            "item": "mekanism:supercharged_coil"
+          }
+        },
+        "pattern": [
+          "ccc",
+          "psp",
+          "cOc"
+        ],
+        "result": {
+          "item": "mekanismdelight:sps_pie"
+        },
+        "show_notification": true
+      }
+    }
+  ]
+}

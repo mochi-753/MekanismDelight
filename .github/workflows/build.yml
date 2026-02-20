@@ -1,0 +1,16 @@
+name: Build
+
+on:
+  workflow_dispatch:
+  push:
+  pull_request:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}-build
+  cancel-in-progress: true
+
+jobs:
+  Build:
+    permissions:
+      contents: write
+    uses: Mochi-753/GithubActions/.github/workflows/build.yml@1.20.1
